@@ -14,3 +14,7 @@
 客户端webview访问的地址是
 http://yourhost:8000/pages/menulist
 
+
+### 扫码体验
+
+![image](wx_2dcode.jpeg)
