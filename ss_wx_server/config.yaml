@@ -1,0 +1,65 @@
+#base
+
+title: "My Learning"
+port: 8000
+show_sidebar: True
+show_topbar: False
+show_footer: True
+topbar_height: 100
+
+pages:
+  - 介绍:
+    - 简介: intro.py
+    - 安装: install.py
+    - 运行: run.py
+  
+  - tag: divider
+
+  - 常用组件:
+    - Button 按钮: demo_button.py
+    - Html 超文本: demo_html.py
+    - Image 图像: demo_image.py
+    - markdown 组件: demo_markdown.py
+    - Text 文本显示: demo_text.py
+  
+  - tag: divider
+  
+  - 表单组件:
+    - Radio 单选框: demo_radio.py
+    - Checkbox 多选框: demo_checkbox.py
+    - Expander 下拉展开: demo_expander.py
+    - Slider 滑块: demo_slider.py
+    - Slectbox 选择器: demo_selectbox.py
+    - Input 文本输入: demo_textinput.py
+
+  - tag: divider
+  
+  - 用户反馈:
+    - Dialog 对话框: demo_dialog.py
+    - Message 弹框信息: demo_message.py
+    
+  - tag: divider
+  
+  - 布局相关:
+    - Columns 列布局: demo_columns.py
+    - Section 容器: demo_section.py
+    - Sidebar 侧边栏: demo_sidebar.py
+    - xSpace: demo_space.py
+  
+  - tag: divider
+  
+  - 数据库:
+    - Sqlite 数据库: demo_sqlite.py
+    - Table 表格: demo_table.py
+    
+  - tag: divider
+  
+  - 其它:
+    - Audio 音频: demo_audio.py
+    - template 简单模版: demo_template.py
+    - loadvue 自定义组件: demo_loadvue.py
+    - onPageEnter 页面加载事件: demo_onload.py
+    - session 页面变量: demo_session.py
+    - style 样式: demo_style.py
+    - write 数据输出: demo_write.py
+    - video 视频: demo_video.py
