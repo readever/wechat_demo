@@ -10,14 +10,7 @@
 		data() {
 			return {
 				title: 'Hello1',
-				//webSrc:"https://m.baidu.com"
-				//webSrc:"http://localhost:3000/pages/menulist",
-				webSrc:"http://192.168.0.8:8000/pages/menulist",
-				//webSrc:"http://192.168.0.8:8010/test.html#/",
-				//webSrc:"https://docs.h5book.cn/pages/menulist",
-				///测试别的移动框架的速度
-				//webSrc : "https://m.h5book.cn",
-				///webSrc : "https://hellouniapp.dcloud.net.cn/",
+				webSrc:"http://localhost:3000/pages/menulist",
 			}
 		},
 		onLoad(options) {
